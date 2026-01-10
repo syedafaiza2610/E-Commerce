@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "customerProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Customer>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+            <h4 class="text-center">Customer Profile</h4>
+
+            <form method="post" asp-action="updateProfile">
+                <input type="hidden" value="@Model[0].customer_id" name="customer_id"/>
+                <input type="text" value="@Model[0].customer_name" name="customer_name" class="form-control mb-3" />
+
+                <input type="text" value="@Model[0].customer_phone" name="customer_phone" class="form-control mb-3" />
+
+                <input type="text" value="@Model[0].customer_email" name="customer_email" class="form-control mb-3" />
+
+                <input type="text" value="@Model[0].customer_password" name="customer_password" class="form-control mb-3" />
+
+                <input type="text" value="@Model[0].customer_country" name="customer_country" class="form-control mb-3" />
+
+                <input type="text" value="@Model[0].customer_city" name="customer_city" class="form-control mb-3" />
+
+                <input type="text" value="@Model[0].customer_address" name="customer_address" class="form-control mb-3" />
+
+                <input type="submit" class="btn btn-primary" value="Update Profile" />
+            </form>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+</div>
+

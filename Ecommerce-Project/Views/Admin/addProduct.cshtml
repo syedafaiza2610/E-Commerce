@@ -1,0 +1,22 @@
+﻿<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Add New Product</h2>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+            <form method="post" enctype="multipart/form-data">
+                <input type="text" name="product_name" class="form-control my-2" placeholder="Enter Product Name" />
+                <input type="text" name="product_price" class="form-control my-2" placeholder="Enter Product Price" />
+                <input type="text" name="product_description" class="form-control my-2" placeholder="Enter Product Description" />
+                <input type="file" name="product_image" class="form-control my-2" />
+
+                @Html.Partial("CategoryDropdown", ViewData["category"])
+
+                <input type="submit" value="Add Product" class="btn btn-primary my-2 w-100" />
+            </form>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+</div>
