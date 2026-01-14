@@ -133,5 +133,13 @@ namespace Ecommerce_Project.Controllers
             ViewData["product"] = products;
             return View();
         }
+        public IActionResult AddtoCart()
+        {
+            List<Category> category = _context.tbl_category.ToList();
+            ViewData["category"] = category;
+            List<Product> products = _context.tbl_product.ToList();
+            ViewData["product"] = products;
+            return View();
+        }
     }
 }

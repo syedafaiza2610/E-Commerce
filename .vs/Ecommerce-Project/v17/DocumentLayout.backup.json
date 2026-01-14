@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\fetchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\fetchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\fetchallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\fetchallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\fetchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\fetchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|solutionrelative:ecommerce-project\\views\\customer\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1E6ACC9-6C96-4975-9F99-842F4E3B315A}|Ecommerce-Project\\Ecommerce-Project.csproj|c:\\users\\faiza parveen\\desktop\\ecommerce-project\\ecommerce-project\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,45 +46,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\About.cshtml",
               "RelativeDocumentMoniker": "Ecommerce-Project\\Views\\Customer\\About.cshtml",
-              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\About.cshtml*",
-              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\About.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\About.cshtml",
+              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-14T10:51:52.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "productDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\productDetails.cshtml",
               "RelativeDocumentMoniker": "Ecommerce-Project\\Views\\Customer\\productDetails.cshtml",
-              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\productDetails.cshtml",
-              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\productDetails.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\productDetails.cshtml*",
+              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\productDetails.cshtml*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-14T09:23:57.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "fetchAllProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
-              "RelativeDocumentMoniker": "Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
-              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
-              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T09:03:06.523Z",
               "EditorCaption": ""
             },
             {
@@ -97,18 +84,17 @@
               "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\customerProfile.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:21:12.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T08:21:12.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "fetchProducts.cshtml",
               "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchProducts.cshtml",
               "RelativeDocumentMoniker": "Ecommerce-Project\\Views\\Customer\\fetchProducts.cshtml",
-              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchProducts.cshtml",
-              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\fetchProducts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchProducts.cshtml*",
+              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\fetchProducts.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-14T08:12:30.746Z",
               "EditorCaption": ""
@@ -123,25 +109,36 @@
               "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\Index.cshtml",
               "ViewState": "AgIAAMEAAAAAAAAAAAAAAJsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T07:52:15.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T07:52:15.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Ecommerce-Project\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Ecommerce-Project\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAxwH8AAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Controllers\\CustomerController.cs*",
+              "RelativeToolTip": "Ecommerce-Project\\Controllers\\CustomerController.cs*",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T07:52:00.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "fetchAllProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
+              "ToolTip": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
+              "RelativeToolTip": "Ecommerce-Project\\Views\\Customer\\fetchAllProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T09:03:06.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Faiza Parveen\\Desktop\\Ecommerce-Project\\Ecommerce-Project\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Ecommerce-Project\\Views\\Shared\\_Layout.cshtml",
@@ -149,8 +146,7 @@
               "RelativeToolTip": "Ecommerce-Project\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAMEAAAAAAAAAAAAAAM8AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T10:47:05.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T10:47:05.443Z"
             },
             {
               "$type": "Document",
@@ -162,8 +158,7 @@
               "RelativeToolTip": "Ecommerce-Project\\Views\\Admin\\deletePermissionCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T09:26:09.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T09:26:09.945Z"
             }
           ]
         }

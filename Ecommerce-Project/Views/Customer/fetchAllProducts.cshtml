@@ -32,6 +32,12 @@
                }'>
 
     @Html.Partial("fetchProducts", ViewData["product"])
+    @{
+        if(TempData["message"] != null)
+        {
+            <h4 class="text-success">@TempData["message"]</h4>
+        }
+    }
 
 
 </div><!-- End .owl-carousel -->

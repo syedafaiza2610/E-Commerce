@@ -13,7 +13,12 @@
             </div><!-- End .product-action-vertical -->
 
             <div class="product-action">
-                <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                <form asp-action="AddtoCart" method="post">
+                    <input type="hidden" name="product_id" value="@prod.product_id" />
+                    <input type="submit" name="name" value="Add To Cart" class="btn-product btn-cart" />
+                    </form>
+          
+                @* <a href="@Url.Action("AddtoCart" , "Customer")" class="btn-product btn-cart"><span>add to cart</span></a> *@
             </div><!-- End .product-action -->
         </figure><!-- End .product-media -->
 
