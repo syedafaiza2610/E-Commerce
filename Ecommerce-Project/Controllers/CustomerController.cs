@@ -7,15 +7,19 @@ namespace Ecommerce_Project.Controllers
     public class CustomerController : Controller
     {
         private readonly myContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public CustomerController(myContext context)
+        public CustomerController(myContext context, IWebHostEnvironment env)
         {
             this._context = context;
+            this._env = env;
         }
         public IActionResult Index()
         {
             List<Category> category= _context.tbl_category.ToList();
             ViewData["category"] = category;
+            List<Product> products = _context.tbl_product.ToList();
+            ViewData["product"] = products;
             ViewBag.checkSession = HttpContext.Session.GetString("customerSession");
             return View();
         }
@@ -79,6 +83,30 @@ namespace Ecommerce_Project.Controllers
             _context.tbl_customer.Update(customer);
             _context.SaveChanges();
             return RedirectToAction("customerProfile");
+        }
+        public IActionResult ChangeProfileImage(IFormFile customer_image, Customer customer)
+        {
+            string ImagePath = Path.Combine(_env.WebRootPath, "Customer_image", customer_image.FileName);
+            FileStream fs = new FileStream(ImagePath, FileMode.Create);
+            customer_image.CopyTo(fs);
+            customer.customer_image = customer_image.FileName;
+            _context.tbl_customer.Update(customer);
+            _context.SaveChanges();
+            return RedirectToAction("customerProfile");
+        }
+        public IActionResult feedback()
+        {
+            List<Category> category = _context.tbl_category.ToList();
+            ViewData["category"] = category;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult feedback(Feedback feedback)
+        {
+            TempData["message"] = "Thank You For Your Feedback";
+            _context.tbl_feedback.Add(feedback);
+            _context.SaveChanges();
+            return RedirectToAction("feedback");
         }
 
     }

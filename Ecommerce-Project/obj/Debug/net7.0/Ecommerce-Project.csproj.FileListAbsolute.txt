@@ -270,3 +270,4 @@ C:\Users\Faiza Parveen\Desktop\Ecommerce-Project\Ecommerce-Project\bin\Debug\net
 C:\Users\Faiza Parveen\Desktop\Ecommerce-Project\Ecommerce-Project\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Faiza Parveen\Desktop\Ecommerce-Project\Ecommerce-Project\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Faiza Parveen\Desktop\Ecommerce-Project\Ecommerce-Project\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Faiza Parveen\Desktop\Ecommerce-Project\Ecommerce-Project\obj\Debug\net7.0\Ecommerce-Project.sourcelink.json

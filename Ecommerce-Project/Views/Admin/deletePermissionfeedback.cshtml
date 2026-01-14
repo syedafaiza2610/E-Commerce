@@ -1,0 +1,34 @@
+﻿@model Feedback
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase text-danger" style="letter-spacing:4px">
+        Are You Sure Want to Delete this Feedback?
+    </h2>
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <ul class="list-group my-3">
+            <li class="list-group-item">
+                Category Id : @Model.feedback_id
+            </li>
+            <li class="list-group-item">
+                Category Name : @Model.user_name
+            </li>
+            <li class="list-group-item">
+                Category Name : @Model.user_message
+            </li>
+        </ul>
+
+        <a href="@Url.Action("deletefeedback", "Admin", new { id = Model.feedback_id })"
+           class="btn btn-danger">
+            Delete Feedback
+        </a>
+
+        <a href="@Url.Action("fetchfeedback", "Admin")"
+           class="btn btn-warning">
+            Back to List
+        </a>
+    </div>
+    <div class="col-md-2"></div>
+</div>

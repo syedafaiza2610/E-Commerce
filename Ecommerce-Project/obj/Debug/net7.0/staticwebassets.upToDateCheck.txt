@@ -1,7 +1,9 @@
-wwwroot\Admin_image\Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam , quis nostrud exercitation ullamco laboris nisi.png
+wwwroot\Admin_image\pic.png
 wwwroot\Admin_image\picture.png
 wwwroot\css\site.css
 wwwroot\css\styles.css
+wwwroot\Customer_image\download.png
+wwwroot\Customer_image\user.png
 wwwroot\Customer_image\user1.png
 wwwroot\favicon.ico
 wwwroot\js\datatables-simple-demo.js
@@ -64,7 +66,11 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Product_images\headphones.png
+wwwroot\Product_images\mobile.png
+wwwroot\Product_images\mobile2.png
 wwwroot\Product_images\picture.png
+wwwroot\Product_images\shirt.png
 wwwroot\Product_images\user1.png
 wwwroot\Product_images\wallpaer.jpg
 wwwroot\Product_images\{98236760-73B8-4A11-861E-4F6582E0A377}.png.jpg

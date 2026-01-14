@@ -222,7 +222,22 @@ namespace Ecommerce_Project.Controllers
         {
             return View(_context.tbl_product.Include(p => p.Category).FirstOrDefault(p => p.product_id == id));
         }
+        public IActionResult fetchfeedback()
+        {
+            return View(_context.tbl_feedback.ToList());
+        }
+        public IActionResult deletefeedback(int id)
+        {
+            var feedback = _context.tbl_feedback.Find(id);
+            _context.tbl_feedback.Remove(feedback);
+            _context.SaveChanges();
+            return RedirectToAction("fetchfeedback");
 
+        }
+        public IActionResult deletePermissionfeedback(int id)
+        {
+            return View(_context.tbl_feedback.FirstOrDefault(f => f.feedback_id == id));
+        }
     }
 
 }

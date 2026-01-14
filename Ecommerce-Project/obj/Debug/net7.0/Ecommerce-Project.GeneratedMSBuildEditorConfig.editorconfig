@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvbkNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Admin/deletePermissionfeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvbmZlZWRiYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Admin/deletePermissionProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvblByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Admin/fetchCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Admin/fetchfeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hmZWVkYmFjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Admin/fetchProduct.cshtml]
@@ -100,8 +108,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcY3VzdG9tZXJSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Customer/feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcZmVlZGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Customer/fetchCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcZmV0Y2hDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Customer/fetchProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcZmV0Y2hQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Faiza Parveen/Desktop/Ecommerce-Project/Ecommerce-Project/Views/Customer/Index.cshtml]
