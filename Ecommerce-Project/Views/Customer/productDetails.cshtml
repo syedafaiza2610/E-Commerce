@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "productDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Product>
+
+<div class="page-content">
+    <div class="container">
+        <div class="product-details-top">
+            <div class="row">
+
+                @foreach (var prod in Model)
+                {
+                    <!-- Product Image -->
+                    <div class="col-md-6">
+                        <div class="product-gallery product-gallery-vertical">
+                            <div class="row">
+                                <figure class="product-main-image">
+                                    <img src="@("~/Product_images/" + prod.product_image)"
+                                         asp-append-version="true"
+                                         id="product-zoom"
+                                         alt="product image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="col-md-6">
+                        <div class="product-details">
+                            <h1 class="product-title">@prod.product_name</h1>
+
+                            <div class="ratings-container">
+                                <div class="ratings">
+                                    <div class="ratings-val" style="width: 80%;"></div>
+                                </div>
+                                <a class="ratings-text" href="#product-review-link">( 2 Reviews )</a>
+                            </div>
+
+                            <div class="product-price">
+                                Rs:@prod.product_price
+                            </div>
+
+                            <div class="product-content">
+                                <p>@prod.product_description</p>
+                            </div>
+
+
+                            <div class="details-filter-row details-row-size">
+                                <label for="qty">Qty:</label>
+                                <div class="product-details-quantity">
+                                    <input type="number" class="form-control" value="1" min="1" max="10" required>
+                                </div>
+                            </div>
+
+                            <div class="product-details-action">
+                                <a href="#" class="btn-product">
+                                    <span>Add to cart</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "fetchAllProducts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>fetchAllProducts</h1>
+<div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl"
+     data-owl-options='{
+                   "nav": false,
+                   "dots": true,
+                   "margin": 20,
+                   "loop": false,
+                   "responsive": {
+                       "0": {
+                           "items":2
+                       },
+                       "480": {
+                           "items":2
+                       },
+                       "768": {
+                           "items":3
+                       },
+                       "992": {
+                           "items":4
+                       },
+                       "1200": {
+                           "items":5,
+                           "nav": true
+                       }
+                   }
+               }'>
+
+    @Html.Partial("fetchProducts", ViewData["product"])
+
+
+</div><!-- End .owl-carousel -->
+
+

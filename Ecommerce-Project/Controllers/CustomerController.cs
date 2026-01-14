@@ -108,6 +108,30 @@ namespace Ecommerce_Project.Controllers
             _context.SaveChanges();
             return RedirectToAction("feedback");
         }
-
+        public IActionResult fetchAllProducts()
+        {
+            List<Category> category = _context.tbl_category.ToList();
+            ViewData["category"] = category;
+            List<Product> products = _context.tbl_product.ToList();
+            ViewData["product"] = products;
+            return View();
+        }
+        public IActionResult productDetails(int id)
+        {
+            List<Category> category = _context.tbl_category.ToList();
+            ViewData["category"] = category;
+            List<Product> products = _context.tbl_product.ToList();
+            ViewData["product"] = products;
+            var product = _context.tbl_product.Where(p => p.product_id == id).ToList();
+            return View(product);
+        }
+        public IActionResult About()
+        {
+            List<Category> category = _context.tbl_category.ToList();
+            ViewData["category"] = category;
+            List<Product> products = _context.tbl_product.ToList();
+            ViewData["product"] = products;
+            return View();
+        }
     }
 }
