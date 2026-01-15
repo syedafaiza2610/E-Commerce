@@ -255,6 +255,19 @@ namespace Ecommerce_Project.Controllers
         {
             return View(_context.tbl_cart.FirstOrDefault(c => c.cart_id == id));
         }
+        public IActionResult updateCart(int id)
+        {
+            var cart = _context.tbl_cart.Find(id);
+            return View(cart);
+        }
+        [HttpPost]
+        public IActionResult updateCart(int cart_status , Cart cart)
+        {
+            _context.tbl_cart.Update(cart);
+            _context.SaveChanges();
+            return RedirectToAction("fetchCart");
+        }
+
 
     }
 

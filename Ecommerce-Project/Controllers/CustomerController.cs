@@ -1,6 +1,7 @@
 ﻿using Ecommerce_Project.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce_Project.Controllers
 {
@@ -154,6 +155,32 @@ namespace Ecommerce_Project.Controllers
                 TempData["message"] = "Product Successfully Added in Cart";
                 return RedirectToAction("fetchAllProducts");
             }
+        }
+        // references
+        public IActionResult fetchCart()
+        {
+            List<Category> category = _context.tbl_category.ToList();
+            ViewData["category"] = category;
+
+            string customerId = HttpContext.Session.GetString("customerSession");
+            if (customerId != null)
+            {
+                var cart = _context.tbl_cart.Where(c => c.cust_id == int.Parse(customerId)).Include(c => c.products).ToList();
+                return View(cart);
+            }
+            else
+            {
+                return RedirectToAction("customerLogin");
+            }
+        }
+        // references
+        // references
+        public IActionResult removeProduct(int id)
+        {
+            var product = _context.tbl_cart.Find(id);
+            _context.tbl_cart.Remove(product);
+            _context.SaveChanges();
+            return RedirectToAction("fetchCart");
         }
 
     }
