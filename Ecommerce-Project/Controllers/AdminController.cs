@@ -238,6 +238,24 @@ namespace Ecommerce_Project.Controllers
         {
             return View(_context.tbl_feedback.FirstOrDefault(f => f.feedback_id == id));
         }
+        public IActionResult fetchCart()
+        {
+            var cart = _context.tbl_cart.Include(c => c.products).Include(c => c.customers).ToList();
+            return View(cart);
+        }
+        public IActionResult deleteCart(int id)
+        {
+            var cart = _context.tbl_cart.Find(id);
+            _context.tbl_cart.Remove(cart);
+            _context.SaveChanges();
+            return RedirectToAction("fetchCart");
+
+        }
+        public IActionResult deletePermissionCart(int id)
+        {
+            return View(_context.tbl_cart.FirstOrDefault(c => c.cart_id == id));
+        }
+
     }
 
 }

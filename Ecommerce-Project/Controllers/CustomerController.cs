@@ -133,13 +133,28 @@ namespace Ecommerce_Project.Controllers
             ViewData["product"] = products;
             return View();
         }
-        public IActionResult AddtoCart()
+        public IActionResult AddToCart(int product_id, Cart cart)
         {
-            List<Category> category = _context.tbl_category.ToList();
-            ViewData["category"] = category;
-            List<Product> products = _context.tbl_product.ToList();
-            ViewData["product"] = products;
-            return View();
+            string isLogin = HttpContext.Session.GetString("customerSession");
+
+            if (isLogin == null)
+            {
+                return RedirectToAction("customerLogin");
+            }
+            else
+            {
+                cart.prod_id = product_id;
+                cart.cust_id = int.Parse(isLogin);
+                cart.product_quantity = 1; // static
+                cart.cart_status = 0; //static data it means that product was only in cart not check out 
+
+                _context.tbl_cart.Add(cart);
+                _context.SaveChanges();
+
+                TempData["message"] = "Product Successfully Added in Cart";
+                return RedirectToAction("fetchAllProducts");
+            }
         }
+
     }
 }
